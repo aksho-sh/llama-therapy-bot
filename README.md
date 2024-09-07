@@ -2,7 +2,7 @@
 This project is an attempt from me to create a therapy bot using data available in huggingFace. It includes finetuning of the model, creating an API out of it as well as contanerizing both the backend and frontend elements. I have chosen this approach because I couldn't find any free online platform which allows gpu based models to be hosted. However, if you have GPU in your personal computer, you should be able to run this setup locally.
 
 <img src="./Images/front_end.jpg" alt="Frontend sample." width="300" height="300">
-*Frontend Sample*
+_Frontend Sample_
 
 
 ## **Main features**
