@@ -1,8 +1,8 @@
-# **My Model API**
+# **Therapy Bot**
+This project is an attempt from me to create a therapy bot using data available in huggingFace. It includes finetuning of the model, creating an API out of it as well as contanerizing both the backend and frontend elements. I have chosen this approach because I couldn't find any free online platform which allows gpu based models to be hosted. However, if you have GPU in your personal computer, you should be able to run this setup locally.
 
-A REST API that serves a machine learning model pulled from [Model Hub](https://huggingface.co/) and runs inference in a Docker container with GPU support. The API is built using **FastAPI** and containerized using **Docker** to allow efficient and scalable deployment.
 
-## **Features**
+## **Main features**
 
 - Finetuned llama model on therapy dataset. Light weight model that can run locally. 5.7 GB(Base model) + 168 MB(Adapter weights).
 - GPU-accelerated inference with Docker and NVIDIA GPUs.
